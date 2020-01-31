@@ -274,17 +274,17 @@ th {
 
 @font-face {
   font-family: 'SansBold';
-  src: url('../../assets/fonts/sans/Sans-Bold.ttf') format('truetype');
+  src: url('https://elixir.judy.legal/static/frontend/fonts/sans/Sans-Bold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'SansMedium';
-  src: url('../../assets/fonts/sans/Sans-Medium.ttf') format('truetype');
+  src: url('https://elixir.judy.legal/static/frontend/fonts/sans/Sans-Medium.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'SansRegular';
-  src: url('../../assets/fonts/sans/Sans-Regular.ttf') format('truetype');
+  src: url('https://elixir.judy.legal/static/frontend/fonts/sans/Sans-Regular.ttf') format('truetype');
 }
 html {
     overflow-x: hidden;
