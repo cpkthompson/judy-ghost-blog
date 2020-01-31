@@ -12,10 +12,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     {{!-- Styles'n'Scripts --}}
-    <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}"/>
 
     {{!-- This tag outputs SEO meta+structured data and other important settings --}}
     {{ghost_head}}
+
+    <style>
+        @font-face {
+            font-family: 'SansBold';
+            src: url('https://elixir.judy.legal/static/frontend/fonts/sans/Sans-Bold.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'SansMedium';
+            src: url('https://elixir.judy.legal/static/frontend/fonts/sans/Sans-Medium.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'SansRegular';
+            src: url('https://elixir.judy.legal/static/frontend/fonts/sans/Sans-Regular.ttf') format('truetype');
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}"/>
+
 
 </head>
 <body class="{{body_class}}">
@@ -28,7 +46,7 @@
     {{!-- The footer at the very bottom of the screen --}}
     <div style="padding: 16px;background-color: #9c27b0;text-align: center">
         <a href="https://www.judy.legal">
-            <strong style="max-width: fit-content;margin: auto;color: white;text-decoration: underline" >
+            <strong style="max-width: fit-content;margin: auto;color: white;text-decoration: underline">
                 Get started with JUDY
             </strong>
         </a>
